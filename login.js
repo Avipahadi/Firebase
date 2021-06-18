@@ -8,7 +8,7 @@ var uiConfig = {
     //firebase.auth.GithubAuthProvider.PROVIDER_ID,
     firebase.auth.EmailAuthProvider.PROVIDER_ID
   ],
-  // Terms of service url.
+  credentialHelper: firebaseui.auth.CredentialHelper.NONE,
   tosUrl: 'index.html'
 };
 
